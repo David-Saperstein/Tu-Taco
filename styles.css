@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 2.2rem);
+}
+
+body{
+    background-image: url('tutaco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 1rem;
+    color: grey;
+}
+
+a{
+    margin-left: 1rem;
+    border: 2px solid grey;
+    color: grey;
+    padding: 0.7rem 1.1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
