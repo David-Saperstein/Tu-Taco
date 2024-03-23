@@ -4,7 +4,7 @@ function getMinutes(){
 }
 
 function isOpen(minutes){
-    return (minutes >= 960 || minutes < 45)
+    return (minutes >= 900 && minutes < 1425)
 }
 function updateStatus(){
     let open = isOpen(getMinutes());
