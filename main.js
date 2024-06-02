@@ -7,7 +7,8 @@ function isOpen(minutes){
     return (minutes >= 900 && minutes < 1425)
 }
 function updateStatus(){
-    let open = isOpen(getMinutes());
+    // let open = isOpen(getMinutes());
+    let open = false;
     document.getElementById("status").innerHTML = open ? "Open" : "Closed";
     document.getElementById("status").style.color = open ? "green" : "#c42a22";
 }
